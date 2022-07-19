@@ -7,6 +7,6 @@ with st.form(key="includ_cliente"):
     input_button_submit = st.form_submit_button("Enviar")
 
 if input_button_submit:
-    st.write(f'Nome:{input_name}')
-    st.write(f'Idade:{input_age}')
-    st.write(f'Profissão:{input_occupation}')
+    st.write(f'Nome: {input_name}')
+    st.write(f'Idade: {input_age}')
+    st.write(f'Profissão: {input_occupation}')
