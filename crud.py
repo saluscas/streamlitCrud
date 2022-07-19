@@ -1,5 +1,7 @@
 import streamlit as st;
 
+st.title("Incluir Cliente")
+
 with st.form(key="includ_cliente"):
     input_name = st.text_input(label="insira o seu nome")
     input_age = st.number_input(label="insira sua idade", format="%d", step=1)
